@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgb(125, 81, 112) 0%, rgb(223, 149, 235) 100%);
+}
+h1{
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    word-spacing: 0px;
+    margin-bottom: 5rem;
+}
+.container{
+    /* height:700px; */
+    /* margin-top:20px; */
+margin: auto;
+
+
+}
+.image{
+    width: 300px;
+    height: 275px;
+    padding: 5px;
+    float: left;
+    display: block;
+    overflow: clip;
+    cursor: pointer;
+    
+}
+
+.image:hover{
+    width: 350px;
+    height:325px;
+}
+
+.paragraph{
+    /* border: 2px solid; */
+    border-radius: 5px;
+    background-color: rgba(185, 25, 125, 0.2);
+    height:350px;
+    width:800px;
+    padding: 10px;
+    margin:auto;
+    min-width: auto;
+    min-height: auto;
+    text-decoration: none solid rgb(0, 0, 0);
+    margin-left:24rem;
+    display: block;
+    outline: rgb(255, 0, 0); dashed 1 px; 
+
+}
+.baslik{
+    font-family: 'EB Garamond', serif;
+    font-size: 32px;
+    font-weight: 400;
+    color:#F4A460;
+}
+/* 
+.btn{
+    margin: 15px, 15px, 5px, 5px;
+    float: right;
+    display: block;
+    height: 50px;
+    width: 130px;
+    cursor: pointer;
+    background-color: orange;
+} */
+
+.input{
+    margin: 55px, 15px, 5px, 5px;
+    float: right;
+    display: block;
+    height: 50px;
+    width: 130px;
+    cursor: pointer;
+    background-color: orange;
+    border-radius: 5px ;
+    border-style: none;
+    text-decoration: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 5px;
+   
+}
+
+.input a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    color: aliceblue;
+}
+
+.input:hover{
+    width: 150px;
+    height: 70px;
+}
+
+.icerik p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px; 
+     font-weight: 300; 
+     text-decoration: none solid rgb(255, 255, 255);
+    text-align: justify;
+    
+}
+
+.icerik{
+    color:aliceblue;
+    margin-top: 50px;
+}
